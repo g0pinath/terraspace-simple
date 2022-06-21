@@ -1,6 +1,6 @@
 # This is where you put your resource declaration
 resource "azurerm_key_vault" "example" {
-  name                        = "examplevault202201"
+  name                        = "examplevault202202"
   location                    = "australiaeast"
   resource_group_name         = "golang-example"
   enabled_for_disk_encryption = true
